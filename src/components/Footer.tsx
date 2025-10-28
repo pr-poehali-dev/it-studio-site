@@ -6,11 +6,12 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <Icon name="Code2" size={24} className="text-white" />
-              </div>
-              <span className="text-xl font-bold">SITI</span>
+            <div className="mb-4">
+              <img 
+                src="https://cdn.poehali.dev/projects/20c9b088-f1f1-4407-8f26-759966ab4811/files/db3d4aa8-4ff0-4acd-8e4b-5ab8464a991f.jpg" 
+                alt="SITI Logo" 
+                className="h-12 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-white/70">
               IT-услуги для развития вашего бизнеса

@@ -16,11 +16,12 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <Icon name="Code2" size={24} className="text-white" />
-            </div>
-            <span className="text-xl font-bold text-foreground">SITI</span>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/projects/20c9b088-f1f1-4407-8f26-759966ab4811/files/db3d4aa8-4ff0-4acd-8e4b-5ab8464a991f.jpg" 
+              alt="SITI Logo" 
+              className="h-12 w-auto"
+            />
           </div>
 
           <div className="hidden md:flex items-center gap-8">
